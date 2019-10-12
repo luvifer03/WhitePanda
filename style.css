@@ -1,0 +1,90 @@
+.topnav a {
+	top:0;
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a {
+  padding: 10px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  display: block;
+}
+.topnav a:hover {
+  color: 	#66ccff;
+}
+
+.sidenav {
+  height: 100%; 
+  
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #ffffff; 
+  overflow-x: hidden;
+  padding-top: 60px; 
+  padding-left:150px;
+
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #b3b3b3;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #66ccff;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.navbar a{
+	padding: 10px 8px 6px 6px;
+	text-decoration: none;
+	font size:20px;
+	color:#b3b3b3;
+
+}
+
+.navbar a:hover {
+  background: #ffffff ;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #ffffff;
+  color: white;
+}
+
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+}
+.image
+{padding-top: 50px;
+  padding-left:180px;
+}
+.btn1 {
+  background-color: #ffffff; /* Green */
+  border:#66ccff ;
+  color: white;
+  padding-top:200px;
+  padding-left: 200px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
